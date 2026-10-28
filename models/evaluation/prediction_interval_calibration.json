@@ -1,0 +1,7 @@
+{
+  "coverage_level": 0.9,
+  "absolute_error_quantile_gbp": 501460.5546158183,
+  "calibration_samples": 100522,
+  "method": "split_conformal_absolute_residual",
+  "calibration_year": 2024
+}

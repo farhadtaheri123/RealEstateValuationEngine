@@ -1,0 +1,16 @@
+# Install into the same .venv that runs Uvicorn.
+fastapi
+uvicorn[standard]
+pandas
+numpy
+scikit-learn==1.5.1
+lightgbm
+joblib
+shap
+sqlalchemy>=2.0
+pwdlib[argon2]
+PyJWT
+email-validator
+pytest
+pytest-cov
+httpx

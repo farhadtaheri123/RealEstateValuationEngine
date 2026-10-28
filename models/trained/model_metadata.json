@@ -1,0 +1,18 @@
+{
+    "model_name": "LightGBM (log target)",
+    "target": "price",
+    "prediction_transform": "exponential",
+    "training_year": 2023,
+    "validation_year": 2024,
+    "test_year": 2025,
+    "features": [
+        "property_type",
+        "old_new",
+        "duration",
+        "district",
+        "sale_month"
+    ],
+    "test_mae": 237398.4059,
+    "test_rmse": 705267.5996,
+    "test_r2": 0.319
+}
